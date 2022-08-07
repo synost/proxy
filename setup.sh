@@ -6,8 +6,6 @@ source .env
 # Ensure exit is properly trapped
 trap "exit $?" TERM
 
-# Set sane path
-PATH="/bin:/usr/bin:/sbin:/usr/sbin"
 
 # Set error Handlers
 error_exit() {
